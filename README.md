@@ -29,7 +29,7 @@ The bot is suppose to maintain a session and continously listen to the predefine
 
 ## Development language
 * javascript
-* node js (version 7.0.0)
+* node js (version 7.8.0)
 
 ## Getting started
 * You need to run the following correctly to get started.

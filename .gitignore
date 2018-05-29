@@ -1,11 +1,8 @@
 # node modules
 /node_modules
 
-# env files 
-/.env
-
 #client secret files
-/client_secret.json
+client_secret.json
 
 #spreadsheet backup
 /src/spreadsheet_bk.js

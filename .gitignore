@@ -2,7 +2,7 @@
 /node_modules
 
 #client secret files
-client_secret.json
+/client_secret.json
 
 #spreadsheet backup
 /src/spreadsheet_bk.js

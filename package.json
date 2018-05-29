@@ -29,7 +29,10 @@
   "homepage": "https://github.com/darrellbor/backend-test-I#readme",
   "dependencies": {
     "dotenv": "^5.0.1",
+    "google-auth-library": "^1.5.0",
+    "googleapis": "^27.0.0",
     "prompt": "^1.0.0",
+    "sheets-api": "^1.0.5",
     "twit": "^2.2.9"
   }
 }

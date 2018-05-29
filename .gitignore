@@ -3,3 +3,18 @@
 
 # env files 
 /.env
+
+#client secret files
+/client_secret.json
+
+#spreadsheet backup
+/src/spreadsheet_bk.js
+
+#credentials files
+/credentials.json
+
+#client secret files
+/src/client_secret.json
+
+#authentication files
+/authentication.json

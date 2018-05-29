@@ -1,6 +1,7 @@
 const Twit = require('twit');
 const config = require('./config');
 var prompt = require('prompt');
+var spreadsheet = require('./spreadsheet');
 
 var bot = new Twit(config);
 
@@ -35,12 +36,9 @@ module.exports = function() {
             console.log('---------------------------------------------------------------------');
             console.log('Profile Name: ', tweet.user.screen_name);
             console.log('Followers: ', tweet.user.followers_count);
+            spreadsheet.newRow(tweet.user.screen_name, tweet.user.followers_count);
             console.log('---------------------------------------------------------------------');
         });
-
-        stream.on('connected', function (response) {
-            console.log(response);
-        })
     });
 
     var onErr = function(err) {
